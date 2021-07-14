@@ -324,8 +324,6 @@ img{
     text-decoration: underline;
     color: #c06b8a;
 }
-
-
 .latest-news .latest-area .latest-card p{
     color: rgba(255, 0, 0, 0.577);
 }
@@ -449,14 +447,14 @@ img{
     .container{
         max-width: 900px;
     }
+    /* navabr */
     .header .navbar{
-    max-width: 900px;
-       
+        max-width: 900px;
     }
+    /* head section */
     .head-area .head-width{
         padding: 4rem 0;
         max-width: 900px;
-       
     }
     .head-area .head-width .head-content h1{
         font-size: 50px;
@@ -466,10 +464,10 @@ img{
         height: 350x;
         justify-self: flex-end;
     }
+    /* players section */
     .players{
         width: 100%;
         justify-items: center;
-        
     }
     .player-card{
         padding: 10px;
@@ -481,9 +479,9 @@ img{
         width: 240px;
         height: 150px; 
     }
+    /* highlight section */
     .highlights .flex{
         justify-content: space-between;
-        
         padding: 80px 0;
     }
     .highlights .highlight-img img{
@@ -499,12 +497,14 @@ img{
     .highlights .highlight-content p{
         text-align: justify;
     }
+    /* article section */
     .article-area .article-grid{
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         grid-row-gap: 24px;
         grid-column-gap: 0;
     }
+    /* latest news section */
     .latest-news .latest-area .latest-card{
         padding: 15px;
         width: 450px; 
