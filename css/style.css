@@ -121,13 +121,32 @@ img{
     -webkit-animation: sliderInFromLeft 1s ease-in;
 }
 .head-area .head-width .animationRight{
+    transition: transform .3s ease-in;
+    -webkit-transition: transform .3s ease-in;
+    -moz-transition: transform .3s ease-in;
+    -ms-transition: transform .3s ease-in;
+    -o-transition: transform .3s ease-in;
+}
+.head-area .head-width .animationRight{
     animation: sliderInFromRight 1s ease-in;
     -webkit-animation: sliderInFromRight 1s ease-in;
+}
+.head-area .head-width .animationRight:hover{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 .head-area .head-content .btn{
     margin-top: 27px;
     display: block;
     width: 165px;
+    transition: transform .3s ease-in;
+    -webkit-transition: transform .3s ease-in;
+    -moz-transition: transform .3s ease-in;
+    -ms-transition: transform .3s ease-in;
+    -o-transition: transform .3s ease-in;
 }
 .head-area .head-content .btn:hover{
     transform: scale(.98);
@@ -198,6 +217,11 @@ img{
     width: 165px;
     text-align: center;
     margin: 24px 0;
+    transition: transform .3s ease-in;
+    -webkit-transition: transform .3s ease-in;
+    -moz-transition: transform .3s ease-in;
+    -ms-transition: transform .3s ease-in;
+    -o-transition: transform .3s ease-in;
 }
 .highlight-content .button .btn-primary:hover{
     transform: scale(.98);
@@ -570,19 +594,7 @@ img{
     .footer .footer-img img{
         width: 275px;
     }
-    .head-area .head-content{
-        margin-left: 2%;
-        animation: sliderInFromTop 1s ease-in;
-        -webkit-animation: sliderInFromTop 1s ease-in;
-    }
-    .head-area .head-width .animationRight{
-        animation: sliderInFromBottom 1s ease-in;
-        -webkit-animation: sliderInFromBottom 1s ease-in;
-    }
-    .highlights .highlight-content{
-        animation: sliderInFromLeft 1s ease-in;
-        -webkit-animation: sliderInFromLeft 1s ease-in;
-    }
+    /* article section animation */
     .article-area .article-card:first-child{
         animation: sliderInFromLeft 1s ease-in;
         -webkit-animation: sliderInFromLeft 1s ease-in;
