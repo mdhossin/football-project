@@ -1,6 +1,5 @@
 /* ================ Import Google Font =============== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
 /* ================ Variables Css =============== */
 :root{
     --text-color:#18191F;
@@ -9,20 +8,16 @@
     --btn-color:#ffffff;
     --btn-bg:#E02C6D;
 }
-
-
 /* ================ Reset Css Style =============== */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 body{
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
     line-height: 1.6;
-   
 }
 /* ================ Base Style =============== */
 h1{
@@ -181,7 +176,6 @@ img{
     width: 500px;
     height: 400px;
 }
-
 .highlights .highlight-img{
     animation: sliderInFromRight 1s ease-in;
     -webkit-animation: sliderInFromRight 1s ease-in;
@@ -358,7 +352,6 @@ img{
 .footer .footer-width .footer-social .fa-youtube:hover{
     color: #E83F3A;
 }
-
 /* ================ Animation ================== */
 @keyframes sliderInFromLeft {
     0%{
@@ -505,7 +498,6 @@ img{
     .head-area .head-width img{
         width: 330px;
         height: 260x;
-        
     }
     /* player section */
     .players{
@@ -598,9 +590,9 @@ img{
     .article-area .article-card:nth-child(2){
         animation: sliderInFromRight 1s ease-in;
         -webkit-animation: sliderInFromRight 1s ease-in;
-}
+    }
     .article-area .article-card:nth-child(3){
         animation: sliderInFromBottom 1s ease-in;
         -webkit-animation: sliderInFromBottom 1s ease-in;
-}
+    }
 }
