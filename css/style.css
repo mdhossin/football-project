@@ -55,7 +55,7 @@ img{
 }
 /* ================ Utilities Css Style =============== */
 .container{
-    width: 1050px;
+   max-width: 1050px;
     margin: 0 auto;
 }
 .flex{
@@ -75,7 +75,7 @@ img{
 }
 .header .navbar{
     max-width: 1160px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 .header .flex{
     justify-content: space-between;
@@ -363,6 +363,7 @@ img{
     text-align: center;
     font-size: 18px;
     color: #000000;
+    padding-bottom: 60px;
 }
 .footer .footer-width .footer-social .fa-dribbble:hover{
     color: #F74A60;
@@ -442,7 +443,77 @@ img{
 }
 }
 
+/* ======================== For Medium Device ==============================*/
 
+@media screen and (min-width:992px) and (max-width:1200px){
+    .container{
+        max-width: 900px;
+    }
+    .header .navbar{
+    max-width: 900px;
+       
+    }
+    .head-area .head-width{
+        padding: 4rem 0;
+        max-width: 900px;
+       
+    }
+    .head-area .head-width .head-content h1{
+        font-size: 50px;
+    }
+    .head-area .head-width img{
+        width: 400px;
+        height: 350x;
+        justify-self: flex-end;
+    }
+    .players{
+        width: 100%;
+        justify-items: center;
+        
+    }
+    .player-card{
+        padding: 10px;
+        color: #ffffff;
+        width: 260px;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .players .player-img img{
+        width: 240px;
+        height: 150px; 
+    }
+    .highlights .flex{
+        justify-content: space-between;
+        
+        padding: 80px 0;
+    }
+    .highlights .highlight-img img{
+        width: 400px;
+        height: 250px;
+    }
+    .highlights .highlight-content{
+        width: 450px; 
+    }
+    .highlights .highlight-content h2{
+        font-style: 30px;
+    }
+    .highlights .highlight-content p{
+        text-align: justify;
+    }
+    .article-area .article-grid{
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        grid-row-gap: 24px;
+        grid-column-gap: 0;
+    }
+    .latest-news .latest-area .latest-card{
+        padding: 15px;
+        width: 450px; 
+    }
+    .latest-news .latest-area img{
+        width: 180px;
+        height: 105px;
+    }
+}
 /* ================ For Tablet ================== */
 @media screen and (max-width:991px){
     .header{
@@ -593,6 +664,9 @@ img{
     }
     .footer .footer-img img{
         width: 275px;
+    }
+    .footer .footer-width p{
+        padding-bottom: 180px;
     }
     /* article section animation */
     .article-area .article-card:first-child{
